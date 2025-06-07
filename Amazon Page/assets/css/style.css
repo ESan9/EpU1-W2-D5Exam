@@ -1,1 +1,204 @@
 /* Your styles here */
+
+/* IMPOSTAZIONI GENERALI */
+
+body {
+  margin: 0px;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  background-color: #e8eced;
+}
+
+header {
+  background-color: #232f3e;
+  width: 100%;
+  margin: 0;
+}
+
+main {
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+/* ELEMENTI HEADER */
+
+header img {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 150px;
+}
+
+nav {
+  background-color: #37475a;
+}
+
+header a {
+  color: white;
+  text-align: left;
+  padding-left: 30px;
+  text-decoration: none;
+  font-size: 0.7em;
+  vertical-align: middle;
+}
+
+/* ELEMENTI MAIN */
+
+h3 {
+  background-color: #f46507;
+  color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  text-align: center;
+  font-size: 0.7em;
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+  padding-top: 100px;
+  vertical-align: middle;
+  font-size: 1.6rem;
+}
+
+#sec1 {
+  background-image: url("../images/bg-image.png");
+  height: 30vh;
+  background-repeat: repeat-y;
+  background-size: contain;
+  width: 100%;
+}
+
+section p {
+  color: white;
+  text-align: center;
+}
+
+#sec2 {
+  border-radius: 1px;
+  text-align: center;
+  background-color: white;
+  margin-top: 30px;
+}
+
+section img {
+  display: inline-block;
+  width: 44vh;
+  height: 40vh;
+  border-left: auto;
+  border-right: auto;
+  border-radius: 10px;
+  margin: 20px;
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#divsec2 {
+  text-align: left;
+}
+
+div#divsec2 {
+  padding: 10px;
+}
+
+#divsec2 span {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+#divsec2 a {
+  text-decoration: none;
+  color: #3e8b93;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+#sec3 img {
+  width: 100%;
+  height: 50vh;
+  margin: 0px;
+  margin-top: 30px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#sec4 img {
+  width: 100%;
+  height: 50vh;
+  margin: 0;
+  margin-top: 30px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+#divsec3 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+div#divsec3 {
+  padding: 10px;
+  padding-top: 0;
+}
+
+#divsec3 span {
+  font-size: 0.9rem;
+  color: black;
+  font-weight: 600;
+  margin-left: 25px;
+}
+
+#divsec3 a {
+  text-decoration: none;
+  color: #3e8b93;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 0.8rem;
+  margin-top: 0px;
+}
+
+/* FOOTER */
+
+#div1footer {
+  background-color: #37475a;
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  color: white;
+}
+
+#div2footer {
+  background-color: #232f3e;
+  text-align: center;
+  margin: 0;
+  border: 0;
+}
+
+#div2footer img {
+  width: 200px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 0;
+  border-bottom: 0;
+  vertical-align: middle;
+}
