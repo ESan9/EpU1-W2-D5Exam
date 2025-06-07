@@ -156,7 +156,7 @@ while (t < numericArray.length - 4) {
   t++;
 }
 
-// Se non è compreso IL 32 basta modificare in questo modo (t < numericArray.length - 5) //
+// Se non è compreso il 32 basta modificare in questo modo (t < numericArray.length - 5) //
 
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
@@ -164,3 +164,28 @@ while (t < numericArray.length - 4) {
     es. [f, b, e] --> [6, 2, 5]
 */
 const charactersArray = ["g", "n", "u", "z", "d"];
+
+const posizioniLettere = [];
+
+for (i = 0; i < charactersArray.length; i++)
+  switch (charactersArray[i]) {
+    case "g":
+      posizioniLettere.push(7);
+      break;
+    case "n":
+      posizioniLettere.push(12);
+      break;
+    case "u":
+      posizioniLettere.push(19);
+      break;
+    case "z":
+      posizioniLettere.push(21);
+      break;
+    case "d":
+      posizioniLettere.push(4);
+      break;
+  }
+
+console.log(posizioniLettere);
+
+// Questo è sicuramente il metodo più semplice, però ho dovuto contare la posizione dei caratteri manualmente //
