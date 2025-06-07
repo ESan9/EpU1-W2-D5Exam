@@ -158,6 +158,15 @@ while (t < numericArray.length - 4) {
 
 // Se non è compreso il 32 basta modificare in questo modo (t < numericArray.length - 5) //
 
+// In realtà questo esercizio può risolversi in un modo più generale e probabilmente più corretto sempre escludendo il 32 ovvero: //
+
+let z = 0;
+
+while (numericArray[z] !== 32) {
+  console.log(numericArray[z]);
+  z++;
+}
+
 /* ESERCIZIO 10
     Partendo dall'array fornito e utilizzando un costrutto switch, genera un nuovo array composto dalle posizioni di ogni carattere all'interno
     dell'alfabeto italiano.
@@ -167,7 +176,7 @@ const charactersArray = ["g", "n", "u", "z", "d"];
 
 const posizioniLettere = [];
 
-for (i = 0; i < charactersArray.length; i++)
+for (let i = 0; i < charactersArray.length; i++) {
   switch (charactersArray[i]) {
     case "g":
       posizioniLettere.push(7);
@@ -185,6 +194,7 @@ for (i = 0; i < charactersArray.length; i++)
       posizioniLettere.push(4);
       break;
   }
+}
 
 console.log(posizioniLettere);
 
